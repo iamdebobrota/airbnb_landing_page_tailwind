@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script
+      src="https://kit.fontawesome.com/513ade0091.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <!-- Top nav -->
+      <div class="hidden sm:flex justify-between px-12 items-center">
+        <img src="../utils/airbnb-logo.png" alt="" class="h-20" />
+        <div class="flex gap-4">
+          <p class="font-semibold p-3">Stays</p>
+          <p class="hover:bg-gray-100 p-3 rounded-full cursor-pointer">
+            Experiences
+          </p>
+          <p class="hover:bg-gray-100 p-3 rounded-full cursor-pointer">
+            Online Experiences
+          </p>
+        </div>
+        <div class="flex items-center gap-4">
+          <p
+            class="font-semibold hover:bg-gray-100 p-3 rounded-full cursor-pointer">
+            Airbnb your home
+          </p>
+          <span
+            class="material-symbols-outlined hover:bg-gray-100 p-3 rounded-full cursor-pointer">
+            language
+          </span>
+          <div
+            class="flex gap-4 border-2 rounded-full p-2 hover:bg-gray-100 cursor-pointer">
+            <span class="material-symbols-outlined scale-125"> menu </span>
+            <span class="material-symbols-outlined scale-125">
+              account_circle
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Send top nav -->
+      <div
+        class="hidden sm:flex justify-between sm:w-[96%] md:w-[80%] lg:w-[60%] border-2 rounded-full m-auto items-center">
+        <div
+          class="text-sm hover:bg-gray-100 px-8 rounded-full p-2 h-full w-[28%]">
+          <p class="font-semibold">Where</p>
+          <p>Search destinations</p>
+        </div>
+        <hr class="h-8 border-2" />
+        <div class="text-sm hover:bg-gray-100 px-8 rounded-full p-2 h-full">
+          <p class="font-semibold">Check in</p>
+          <p>Add dates</p>
+        </div>
+        <hr class="h-8 border-2" />
+
+        <div class="text-sm hover:bg-gray-100 px-8 rounded-full p-2 h-full">
+          <p class="font-semibold">Check out</p>
+          <p>Add dates</p>
+        </div>
+        <hr class="h-8 border-2" />
+
+        <div
+          class="w-[28%] flex justify-between hover:bg-gray-100 gap-20 pl-4 rounded-full p-2 h-full items-center">
+          <div class="text-sm">
+            <p class="font-semibold">Who</p>
+            <p>Add guests</p>
+          </div>
+          <span
+            class="material-symbols-outlined p-2 bg-rose-500 text-white rounded-full">
+            search
+          </span>
+        </div>
+      </div>
+
+      <!-- mobile screen nav -->
+      <div
+        class="sm:hidden flex justify-start gap-10 mt-8 w-[95%] border-2 rounded-full m-auto items-center px-8 py-2">
+        <span
+          class="material-symbols-outlined p-2 bg-rose-500 text-white rounded-full">
+          search
+        </span>
+        <div>
+          <p class="font-semibold">Where to?</p>
+          <p>Anywhere • Any week • Add guests</p>
+        </div>
+      </div>
+
+      <hr class="border mt-8" />
+      <div class="flex items-center w-11/12 m-auto">
+        <span class="material-symbols-outlined"> arrow_circle_left </span>
+
+        <div
+          class="flex items-center gap-12 m-auto p-2 overflow-x-scroll no-scrollbar">
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/pictures/c0fa9598-4e37-40f3-b734-4bd0e2377add.jpg"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/pictures/7630c83f-96a8-4232-9a10-0398661e2e6f.jpg"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+          <div>
+            <img
+              class="h-8"
+              src="https://a0.muscache.com/im/pictures/mediaverse/category_icon/original/3e5243c8-4d15-4c6b-97e3-7ba2bb7bb880.png"
+              alt="" />
+            <p class="text-gray-600 font-semibold">Icons</p>
+          </div>
+        </div>
+        <span class="material-symbols-outlined"> arrow_circle_right </span>
+      </div>
+    </nav>
+
+    <!-- Container card -->
+    <div
+      class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-11/12 m-auto mt-8">
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+    </div>
+
+    <!-- past experiences -->
+    <p class="text-4xl font-semibold mx-12">Past experiences</p>
+    <div
+      class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-11/12 m-auto mt-8">
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+      <div class="relative">
+        <div class="flex px-4 absolute top-2 gap-52">
+          <p class="bg-gray-200 p-1 rounded-md px-4">Live</p>
+          <span class="bg-gray-200 rounded-md px-2 material-symbols-outlined">
+            upload
+          </span>
+        </div>
+
+        <img
+          class="min-h-[320px] min-w-[305px] object-cover rounded-2xl"
+          src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=1440&im_q=highq"
+          alt="" />
+        <p class="font-semibold">Train at the X-Mansion</p>
+        <p>Hosted by Jubilee</p>
+        <p><span class="font-semibold">₹3,182</span> per guest</p>
+      </div>
+    </div>
+
+    <footer class="bg-gray-200 p-8 px-12">
+      <p class="text-2xl font-semibold">Inspiration for future getaways</p>
+      <div
+        class="flex gap-8 mt-4 font-semibold text-gray-600 w-[95%] overflow-hidden">
+        <p class="text-black border-b-2 border-black">Popular</p>
+        <p class="break-keep">Arts and culture</p>
+        <p>Outfoots</p>
+        <p>Mountains</p>
+        <p>Popular</p>
+        <p>Popular</p>
+        <p>Popular</p>
+        <p>Popular</p>
+      </div>
+      <hr class="border-black" />
+
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 justify-between gap-8 mt-4">
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p class="text-gray-700">Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+        <div>
+          <p class="font-semibold">Canmore</p>
+          <p>Apartment rentals</p>
+        </div>
+      </div>
+
+      <hr class="border-black mt-8" />
+
+      <div class="flex gap-20 flex-wrap mt-8">
+        <div class="flex flex-col gap-2">
+          <p class="font-semibold">Support</p>
+          <p>Help Centre</p>
+          <p>AirCover</p>
+          <p>Anti-discrimination</p>
+          <p>Disability support</p>
+          <p>Cancellation options</p>
+          <p>Report neighbourhood concern</p>
+        </div>
+        <div class="flex flex-col gap-2">
+          <p class="font-semibold">Support</p>
+          <p>Help Centre</p>
+          <p>AirCover</p>
+          <p>Anti-discrimination</p>
+          <p>Disability support</p>
+          <p>Cancellation options</p>
+          <p>Report neighbourhood concern</p>
+        </div>
+        <div class="flex flex-col gap-2">
+          <p class="font-semibold">Support</p>
+          <p>Help Centre</p>
+          <p>AirCover</p>
+          <p>Anti-discrimination</p>
+          <p>Disability support</p>
+          <p>Cancellation options</p>
+          <p>Report neighbourhood concern</p>
+        </div>
+      </div>
+
+      <hr class="border-black mt-8" />
+      <div class="mt-4 flex flex-wrap justify-between">
+        <div class="flex items-center gap-2">
+          <p>© 2024 Airbnb, Inc.</p>
+          •
+          <p>Privacy</p>
+          •
+          <p>Terms</p>
+          •
+          <p>Sitemap</p>
+          •
+          <p>Company details</p>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="flex gap-2">
+            <span class="material-symbols-outlined"> language </span>
+            <p class="font-semibold">English (IN)</p>
+          </div>
+
+          <p class="font-semibold">₹ INR</p>
+
+          <div class="text-2xl flex gap-2">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
